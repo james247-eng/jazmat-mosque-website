@@ -717,7 +717,10 @@ ion-icon{
   }
   /*=======================*/
   .activities-card-container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .act-card{
     margin-top: 20px;
